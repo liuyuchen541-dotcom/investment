@@ -1,0 +1,27 @@
+﻿task_name,status,message,started_at,finished_at
+update fund 014777 富国中证芯片产业 ETF 联接 C,failed,未安装 AKShare。请先运行：pip install -r requirements.txt,2026-06-12T11:50:46,2026-06-12T11:50:46
+update stock 002714 牧原股份,failed,未安装 AKShare。请先运行：pip install -r requirements.txt,2026-06-12T11:50:46,2026-06-12T11:50:46
+update fund 014777 富国中证芯片产业 ETF 联接 C,failed,"基金接口返回字段缺失：['累计净值', 'LJJZ']；为避免写入错误含义，已停止该基金更新",2026-06-12T11:52:32,2026-06-12T11:52:39
+update stock 002714 牧原股份,failed,"HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=0.002714&beg=20240101&end=20260612 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",2026-06-12T11:52:39,2026-06-12T11:53:09
+update fund 014777 富国中证芯片产业 ETF 联接 C,success,获取 590 行，新增 590 行,2026-06-12T11:53:53,2026-06-12T11:53:54
+update stock 002714 牧原股份,failed,"HTTPSConnectionPool(host='push2his.eastmoney.com', port=443): Max retries exceeded with url: /api/qt/stock/kline/get?fields1=f1%2Cf2%2Cf3%2Cf4%2Cf5%2Cf6&fields2=f51%2Cf52%2Cf53%2Cf54%2Cf55%2Cf56%2Cf57%2Cf58%2Cf59%2Cf60%2Cf61%2Cf116&ut=7eea3edcaed734bea9cbfc24409ed989&klt=101&fqt=1&secid=0.002714&beg=20240101&end=20260612 (Caused by SSLError(SSLEOFError(8, '[SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1010)')))",2026-06-12T11:53:54,2026-06-12T11:54:25
+update index sh000300 沪深300,success,获取 589 行，新增 589 行,2026-06-12T12:10:03,2026-06-12T12:10:07
+update fund 014777 富国中证芯片产业 ETF 联接 C,failed,暂无数据：fund_open_fund_info_em 没有可写入的 014777 净值数据,2026-06-12T12:10:31,2026-06-12T12:10:32
+update stock 002714 牧原股份,success,获取 590 行，新增 590 行,2026-06-12T12:10:32,2026-06-12T12:10:32
+update index sh000300 沪深300,failed,暂无数据：stock_zh_index_daily_tx 未返回 sh000300 的数据,2026-06-12T12:10:32,2026-06-12T12:10:32
+update fund 014777 富国中证芯片产业 ETF 联接 C,success,暂无新数据：fund_open_fund_info_em 没有可写入的 014777 净值数据,2026-06-12T12:11:29,2026-06-12T12:11:30
+update stock 002714 牧原股份,success,本地数据已是最新，无需更新,2026-06-12T12:11:30,2026-06-12T12:11:30
+update index sh000300 沪深300,success,暂无新数据：stock_zh_index_daily_tx 未返回 sh000300 的数据,2026-06-12T12:11:30,2026-06-12T12:11:30
+update fund 014777 富国中证芯片产业 ETF 联接 C,success,暂无新数据：fund_open_fund_info_em 没有可写入的 014777 净值数据,2026-06-12T13:03:36,2026-06-12T13:03:41
+update fund 014881 天弘中证机器人 ETF 联接 C,success,获取 590 行，新增 590 行,2026-06-12T13:03:41,2026-06-12T13:03:41
+update fund 011840 天弘中证人工智能主题指数C,success,获取 590 行，新增 590 行,2026-06-12T13:03:41,2026-06-12T13:03:41
+update fund 013309 易方达恒生科技 ETF 联接 C,success,获取 590 行，新增 590 行,2026-06-12T13:03:41,2026-06-12T13:03:41
+update stock 002714 牧原股份,success,本地数据已是最新，无需更新,2026-06-12T13:03:41,2026-06-12T13:03:41
+update index sh000300 沪深300,success,暂无新数据：stock_zh_index_daily_tx 未返回 sh000300 的数据,2026-06-12T13:03:41,2026-06-12T13:03:42
+update fund 025857 华夏中证电网设备主题ETF联接C,success,获取 129 行，新增 129 行,2026-06-12T14:28:57,2026-06-12T14:28:58
+update fund 023037 中欧资源精选混合C,success,获取 292 行，新增 292 行,2026-06-12T14:28:58,2026-06-12T14:28:58
+update fund 022460 易方达中证A500ETF联接C,success,获取 381 行，新增 381 行,2026-06-12T14:28:58,2026-06-12T14:28:59
+update index 000510 中证A500,success,获取 590 行，新增 590 行,2026-06-12T14:29:11,2026-06-12T14:29:32
+update index HSTECH 恒生科技,success,获取 599 行，新增 599 行,2026-06-12T14:29:32,2026-06-12T14:29:32
+update index H30007 中证芯片,success,获取 590 行，新增 590 行,2026-06-12T14:29:32,2026-06-12T14:29:32
+update index H30590 机器人指数,success,获取 590 行，新增 590 行,2026-06-12T14:29:32,2026-06-12T14:29:32

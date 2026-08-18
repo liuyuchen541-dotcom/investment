@@ -1,0 +1,13 @@
+# Local Python environments and generated caches
+**/.venv/
+**/__pycache__/
+**/.pytest_cache/
+*.py[cod]
+
+# Operating-system generated files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Keep locally archived holding screenshots out of GitHub
+**/docs/holdings/source/
